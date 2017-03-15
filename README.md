@@ -13,3 +13,6 @@
 3. 自定义指令的开发与使用
 4. 服务的开发与使用
 5. 父子组件双向通讯
+
+##扩展
+1.Angular2初探 'http://www.open-open.com/lib/view/open1450937431448.html'
