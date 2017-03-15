@@ -11,9 +11,15 @@ import {LoggerService} from './logger.service'
 export class AppComponent implements OnInit{
     private  greeting: string;
     private showMore:boolean;
+    private msgToChild:string;
+    private msgFromChild:string;
     constructor(private logger:LoggerService){}
     ngOnInit(){
         this.greeting = 'Angular 2';
+        this.msgToChild = 'message form parent';
         this.logger.debug('根组件已经初始化完毕')
+    }
+    receive(msg:string){
+        this.msgFromChild=msg;
     }
 }
