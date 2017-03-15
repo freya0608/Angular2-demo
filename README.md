@@ -1,5 +1,5 @@
 # Angular2-Demo
-慕课网课程《[Angular2一小时快速入门](http://www.imooc.com/learn/789)》代码实操的示例代码。
+
 
 ## 使用
 - 确保 Node 版本为 4.0 及以上
