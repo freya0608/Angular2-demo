@@ -3,6 +3,7 @@
  */
 
 import {Component,OnInit} from '@angular/core';
+import {LoggerService} from './logger.service'
 @Component({
     selector:'my-app',
     templateUrl:'app/app.component.html'
@@ -10,8 +11,9 @@ import {Component,OnInit} from '@angular/core';
 export class AppComponent implements OnInit{
     private  greeting: string;
     private showMore:boolean;
-    constructor(){}
+    constructor(private logger:LoggerService){}
     ngOnInit(){
-        this.greeting = 'Angular 2'
+        this.greeting = 'Angular 2';
+        this.logger.debug('根组件已经初始化完毕')
     }
 }
