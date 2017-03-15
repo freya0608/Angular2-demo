@@ -15,4 +15,4 @@
 5. 父子组件双向通讯
 
 ## 扩展
-1.Angular2初探 <a>http://www.open-open.com/lib/view/open1450937431448.html</a>
+1.<a href='http://www.open-open.com/lib/view/open1450937431448.html'>Angular2初探  </a>
